@@ -12,10 +12,11 @@ include ('/connection/connection.php');
 		<th>Designation</th>
 		<th>Image</th>
 	</tr>
-	<?php 
+	<?php
+	//Fetch data from database 
 	$select="SELECT * FROM `employee`";
 	$result=mysqli_query($conn,$select);
- while($row=mysqli_fetch_assoc($result)){?>
+ 	while($row=mysqli_fetch_assoc($result)){?>
  	<td><?php echo $row['email']?></td>
  	<td><?php echo $row['designation']?></td>
  	<td><?php echo $row['email']?></td>
@@ -26,3 +27,4 @@ include ('/connection/connection.php');
 		</tr>
 	</table>
 	</body>
+	</html>
