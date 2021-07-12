@@ -76,6 +76,9 @@ a {
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
 
+    <label for="ename"><b>Designation</b></label>
+    <input type="text" placeholder="Enter Designation" name="designation" id="designation" required>
+    
     <label for="eimage"><b>Image</b></label>
     <input type="file" name="fileToUpload" id="fileToUpload" required>
     <hr>
